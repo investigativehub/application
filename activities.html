@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Деятельность | Следственный Центр</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+          </div>
+          <span class="logo-text">Следственный Центр</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Главная</a>
+          <a href="about.html" class="nav-link">О нас</a>
+          <a href="activities.html" class="nav-link active">Деятельность</a>
+          <a href="submit.html" class="nav-link">Подать заявку</a>
+          <a href="cases.html" class="nav-link">Закрытые дела</a>
+          <a href="faq.html" class="nav-link">FAQ</a>
+          <a href="contact.html" class="nav-link">Контакты</a>
+        </nav>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="about.html" class="nav-link">О нас</a>
+        <a href="activities.html" class="nav-link active">Деятельность</a>
+        <a href="submit.html" class="nav-link">Подать заявку</a>
+        <a href="cases.html" class="nav-link">Закрытые дела</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Сферы деятельности</h1>
+        <p class="page-description">Основные направления аналитической работы организации</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="content-block">
+          <h2>OSINT-анализ</h2>
+          <p>OSINT (Open Source Intelligence) — разведка на основе открытых источников. Это методология сбора и анализа информации из публично доступных источников для получения аналитических выводов.</p>
+        </div>
+
+        <div class="legal-content">
+          <div class="info-card">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+              Источники информации
+            </h3>
+            <ul style="list-style: none; padding: 0;">
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Средства массовой информации
+              </li>
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Социальные сети и мессенджеры
+              </li>
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Публичные государственные реестры
+              </li>
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Спутниковые снимки и картографические сервисы
+              </li>
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Публичные базы данных и архивы
+              </li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+              Инструменты анализа
+            </h3>
+            <ul style="list-style: none; padding: 0;">
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Геолокация и хронолокация
+              </li>
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Анализ метаданных
+              </li>
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Верификация изображений и видео
+              </li>
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Сетевой анализ связей
+              </li>
+              <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary);">
+                <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                Архивирование данных
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <h2 class="section-title">Цифровые расследования</h2>
+        <div class="activities-list">
+          <div class="activity-item">
+            <span class="activity-number">01</span>
+            <div class="activity-content">
+              <h3>Верификация медиаконтента</h3>
+              <p>Проверка подлинности фотографий, видеозаписей и документов с использованием специализированных инструментов и методов обратного поиска изображений, анализа метаданных и сравнения с архивными материалами.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">02</span>
+            <div class="activity-content">
+              <h3>Геолокация событий</h3>
+              <p>Определение точного местоположения событий по визуальным признакам на фото и видео материалах путём сопоставления с картографическими сервисами, панорамами улиц и спутниковыми снимками.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">03</span>
+            <div class="activity-content">
+              <h3>Хронолокация</h3>
+              <p>Установление времени и даты событий по косвенным признакам: положение солнца, тени, погодные условия, сезонные признаки, временные метки публикаций.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">04</span>
+            <div class="activity-content">
+              <h3>Анализ цифрового следа</h3>
+              <p>Исследование публичной активности в интернете, включая социальные сети, форумы, комментарии, публикации объявлений и другие формы цифрового присутствия.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Аналитические отчёты</h2>
+        <div class="content-block">
+          <p>По результатам исследований мы готовим структурированные аналитические отчёты, которые содержат:</p>
+        </div>
+        <div class="mission-grid">
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14,2 14,8 20,8"/>
+              </svg>
+            </div>
+            <h3>Документирование</h3>
+            <p>Полное документирование всех использованных источников с сохранением архивных копий</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"/>
+                <line x1="12" y1="20" x2="12" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="14"/>
+              </svg>
+            </div>
+            <h3>Визуализация</h3>
+            <p>Наглядное представление данных: схемы связей, временные шкалы, карты событий</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            </div>
+            <h3>Методология</h3>
+            <p>Детальное описание применённых методов исследования и инструментов</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22,4 12,14.01 9,11.01"/>
+              </svg>
+            </div>
+            <h3>Выводы</h3>
+            <p>Аргументированные выводы, основанные на собранных и верифицированных данных</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Следственный Центр</h4>
+          <p>Независимая аналитическая организация, специализирующаяся на OSINT-исследованиях</p>
+        </div>
+        <div class="footer-section">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="activities.html">Деятельность</a></li>
+            <li><a href="submit.html">Подать заявку</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Правовая информация</h4>
+          <ul>
+            <li><a href="legal.html">Кодекс поведения</a></li>
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+            <li><a href="terms.html">Условия использования</a></li>
+            <li><a href="decline.html">Отказ от рассмотрения</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="contact.html">Связаться с нами</a></li>
+            <li><a href="contact.html#cooperation">Сотрудничество</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <p><strong>Отказ от ответственности:</strong> СЦ является частной, любительской организацией и не является правоохранительным органом, государственной структурой или органом расследования. Организация не обладает полномочиями по проведению оперативно-розыскных мероприятий и действует исключительно в рамках действующего законодательства.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Следственный Центр. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

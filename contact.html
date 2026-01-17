@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты | Следственный Центр</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+          </div>
+          <span class="logo-text">Следственный Центр</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Главная</a>
+          <a href="about.html" class="nav-link">О нас</a>
+          <a href="activities.html" class="nav-link">Деятельность</a>
+          <a href="submit.html" class="nav-link">Подать заявку</a>
+          <a href="cases.html" class="nav-link">Закрытые дела</a>
+          <a href="faq.html" class="nav-link">FAQ</a>
+          <a href="contact.html" class="nav-link active">Контакты</a>
+        </nav>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="about.html" class="nav-link">О нас</a>
+        <a href="activities.html" class="nav-link">Деятельность</a>
+        <a href="submit.html" class="nav-link">Подать заявку</a>
+        <a href="cases.html" class="nav-link">Закрытые дела</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link active">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Контакты и сотрудничество</h1>
+        <p class="page-description">Свяжитесь с нами для обсуждения сотрудничества или получения информации</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <div>
+            <div class="content-block">
+              <h2>Связаться с нами</h2>
+              <p>Для подачи заявки на исследование используйте форму на странице «Подать заявку». Для других вопросов — контакты ниже.</p>
+            </div>
+
+            <div class="contact-info-item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <div>
+                <h4>Электронная почта</h4>
+                <p>investigativehub@proton.me</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12,6 12,12 16,14"/>
+              </svg>
+              <div>
+                <h4>Время ответа</h4>
+                <p>Мы стараемся отвечать на обращения в течение 1-3 рабочих дней</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="cooperation">
+            <div class="info-card">
+              <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+                Сотрудничество
+              </h3>
+              <p style="color: var(--color-text-secondary); margin-bottom: 1rem;">Мы открыты к сотрудничеству с:</p>
+              <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary); font-size: 0.9375rem;">
+                  <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                  Журналистами и СМИ
+                </li>
+                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary); font-size: 0.9375rem;">
+                  <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                  Правозащитными организациями
+                </li>
+                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary); font-size: 0.9375rem;">
+                  <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                  Исследовательскими центрами
+                </li>
+                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary); font-size: 0.9375rem;">
+                  <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                  Экспертами в области OSINT
+                </li>
+                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: var(--color-text-secondary); font-size: 0.9375rem;">
+                  <span style="position: absolute; left: 0; color: var(--color-accent);">•</span>
+                  Волонтёрами и специалистами
+                </li>
+              </ul>
+            </div>
+
+            <div class="info-card" style="visibility: hidden;">
+              <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                
+              </h3>
+              <p style="color: var(--color-text-secondary);"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Следственный Центр</h4>
+          <p>Независимая аналитическая организация, специализирующаяся на OSINT-исследованиях</p>
+        </div>
+        <div class="footer-section">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="activities.html">Деятельность</a></li>
+            <li><a href="submit.html">Подать заявку</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Правовая информация</h4>
+          <ul>
+            <li><a href="legal.html">Кодекс поведения</a></li>
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+            <li><a href="terms.html">Условия использования</a></li>
+            <li><a href="decline.html">Отказ от рассмотрения</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="contact.html">Связаться с нами</a></li>
+            <li><a href="contact.html#cooperation">Сотрудничество</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <p><strong>Отказ от ответственности:</strong> СЦ является частной, любительской организацией и не является правоохранительным органом, государственной структурой или органом расследования. Организация не обладает полномочиями по проведению оперативно-розыскных мероприятий и действует исключительно в рамках действующего законодательства.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Следственный Центр. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

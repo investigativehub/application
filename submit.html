@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Подать заявку | Следственный Центр</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+          </div>
+          <span class="logo-text">Следственный Центр</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Главная</a>
+          <a href="about.html" class="nav-link">О нас</a>
+          <a href="activities.html" class="nav-link">Деятельность</a>
+          <a href="submit.html" class="nav-link active">Подать заявку</a>
+          <a href="cases.html" class="nav-link">Закрытые дела</a>
+          <a href="faq.html" class="nav-link">FAQ</a>
+          <a href="contact.html" class="nav-link">Контакты</a>
+        </nav>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="about.html" class="nav-link">О нас</a>
+        <a href="activities.html" class="nav-link">Деятельность</a>
+        <a href="submit.html" class="nav-link active">Подать заявку</a>
+        <a href="cases.html" class="nav-link">Закрытые дела</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Подать заявку</h1>
+        <p class="page-description">Информация о порядке подачи обращений и требованиях к заявкам</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="alert alert-warning" style="margin-bottom: 2rem;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+            <line x1="12" y1="9" x2="12" y2="13"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+          <div>
+            <strong>Это не экстренная служба.</strong> В случае непосредственной угрозы жизни или здоровью немедленно обратитесь в правоохранительные органы (112) или экстренные службы.
+          </div>
+        </div>
+
+        <div class="content-block">
+          <h2>Какие происшествия можно сообщить</h2>
+          <p>Мы принимаем заявки на аналитическое исследование следующих категорий происшествий:</p>
+        </div>
+
+        <div class="requirements-grid">
+          <div class="requirement-card">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22,4 12,14.01 9,11.01"/>
+              </svg>
+              Принимаем
+            </h3>
+            <p>Случаи, требующие верификации информации из открытых источников, установления обстоятельств публичных событий, анализа цифровых следов</p>
+          </div>
+          <div class="requirement-card">
+            <h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="15" y1="9" x2="9" y2="15"/>
+                <line x1="9" y1="9" x2="15" y2="15"/>
+              </svg>
+              Не принимаем
+            </h3>
+            <p>Семейные и личные конфликты, слежку за частными лицами, взлом аккаунтов, получение закрытой информации незаконными методами</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <h2 class="section-title">Требования к заявке</h2>
+        <div class="mission-grid">
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14,2 14,8 20,8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+            </div>
+            <h3>Описание события</h3>
+            <p>Подробное описание происшествия: что произошло, когда, где, кто участвовал (если известно)</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <h3>Доказательства</h3>
+            <p>Ссылки на публикации, скриншоты, фото/видео материалы, которые требуют верификации</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            </div>
+            <h3>Цель исследования</h3>
+            <p>Что именно вы хотите установить или проверить: подлинность материалов, место события, связи между фактами</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+            </div>
+            <h3>Контактные данные</h3>
+            <p>Способ связи для уточнения деталей и передачи результатов (по желанию — анонимно)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="content-block">
+          <h2>Процесс рассмотрения</h2>
+          <p>После получения вашей заявки происходит следующее:</p>
+        </div>
+        
+        <div class="activities-list">
+          <div class="activity-item">
+            <span class="activity-number">01</span>
+            <div class="activity-content">
+              <h3>Первичная оценка</h3>
+              <p>Мы проверяем, соответствует ли заявка нашим критериям и находится ли в рамках наших возможностей.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">02</span>
+            <div class="activity-content">
+              <h3>Уточнение деталей</h3>
+              <p>При необходимости мы связываемся с вами для получения дополнительной информации или материалов.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">03</span>
+            <div class="activity-content">
+              <h3>Исследование</h3>
+              <p>Проведение OSINT-анализа, верификация информации, подготовка выводов. Сроки зависят от сложности случая.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">04</span>
+            <div class="activity-content">
+              <h3>Результат</h3>
+              <p>Предоставление аналитического отчёта с документированием источников и методологии исследования (по желанию), а также совершение доноса в региональный Следственный Комитет либо обращение в Полицию.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="submit-cta">
+          <h3>Готовы подать заявку?</h3>
+          <p>Заполните форму обращения через защищённый сервис Google Forms</p>
+          <a href="https://forms.gle/u1sWJJpNYXDGScRS6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+            Перейти к форме заявки
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 0.5rem;">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15,3 21,3 21,9"/>
+              <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+          </a>
+          <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--color-text-muted);">Ваши данные защищены и обрабатываются в соответствии с нашей политикой конфиденциальности</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Следственный Центр</h4>
+          <p>Независимая аналитическая организация, специализирующаяся на OSINT-исследованиях</p>
+        </div>
+        <div class="footer-section">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="activities.html">Деятельность</a></li>
+            <li><a href="submit.html">Подать заявку</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Правовая информация</h4>
+          <ul>
+            <li><a href="legal.html">Кодекс поведения</a></li>
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+            <li><a href="terms.html">Условия использования</a></li>
+            <li><a href="decline.html">Отказ от рассмотрения</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="contact.html">Связаться с нами</a></li>
+            <li><a href="contact.html#cooperation">Сотрудничество</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <p><strong>Отказ от ответственности:</strong> СЦ является частной, любительской организацией и не является правоохранительным органом, государственной структурой или органом расследования. Организация не обладает полномочиями по проведению оперативно-розыскных мероприятий и действует исключительно в рамках действующего законодательства.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Следственный Центр. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

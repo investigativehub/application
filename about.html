@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас | Следственный Центр</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+          </div>
+          <span class="logo-text">Следственный Центр</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Главная</a>
+          <a href="about.html" class="nav-link active">О нас</a>
+          <a href="activities.html" class="nav-link">Деятельность</a>
+          <a href="submit.html" class="nav-link">Подать заявку</a>
+          <a href="cases.html" class="nav-link">Закрытые дела</a>
+          <a href="faq.html" class="nav-link">FAQ</a>
+          <a href="contact.html" class="nav-link">Контакты</a>
+        </nav>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="about.html" class="nav-link active">О нас</a>
+        <a href="activities.html" class="nav-link">Деятельность</a>
+        <a href="submit.html" class="nav-link">Подать заявку</a>
+        <a href="cases.html" class="nav-link">Закрытые дела</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Об организации</h1>
+        <p class="page-description">Аналитический Центр Открытых Источников — независимая организация, специализирующаяся на OSINT-исследованиях и верификации информации</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="two-column">
+          <div class="content-block">
+            <h2>Наша миссия</h2>
+            <p>Аналитический Центр ОСИНТ был создан с целью содействия гражданскому обществу в получении доступа к объективной и проверенной информации. Мы верим, что прозрачность и доступность информации являются фундаментом демократического общества.</p>
+            <p>Наша миссия заключается в проведении независимых аналитических исследований, верификации информации из открытых источников и предоставлении гражданам инструментов для защиты их прав и интересов.</p>
+            <p>Мы работаем исключительно с открытыми источниками информации, соблюдая действующее законодательство и этические принципы ответственного исследования.</p>
+          </div>
+          <div class="content-block">
+            <h2>Наши ценности</h2>
+            <div class="info-card">
+              <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+                Независимость
+              </h3>
+              <p>Мы не являемся частью какой-либо государственной структуры и сохраняем полную независимость в наших исследованиях и выводах.</p>
+            </div>
+            <div class="info-card">
+              <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12,6 12,12 16,14"/>
+                </svg>
+                Объективность
+              </h3>
+              <p>Наши исследования основаны на фактах и верифицируемых данных, а не на предположениях или политических предпочтениях.</p>
+            </div>
+            <div class="info-card">
+              <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+                Прозрачность
+              </h3>
+              <p>Мы открыто документируем нашу методологию и источники информации, обеспечивая возможность независимой проверки.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <h2 class="section-title">Методология OSINT</h2>
+        <div class="mission-grid">
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21,15 16,10 5,21"/>
+              </svg>
+            </div>
+            <h3>Сбор данных</h3>
+            <p>Систематический сбор информации из публично доступных источников: СМИ, социальные сети, публичные реестры, спутниковые снимки</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/>
+              </svg>
+            </div>
+            <h3>Анализ</h3>
+            <p>Критический анализ собранных данных, выявление закономерностей и связей между различными элементами информации</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22,4 12,14.01 9,11.01"/>
+              </svg>
+            </div>
+            <h3>Верификация</h3>
+            <p>Многоуровневая проверка достоверности информации с использованием независимых источников и инструментов</p>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14,2 14,8 20,8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+            </div>
+            <h3>Документирование</h3>
+            <p>Подготовка структурированных отчётов с полным документированием источников и методов исследования</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Принципы работы</h2>
+        <div class="activities-list">
+          <div class="activity-item">
+            <span class="activity-number">01</span>
+            <div class="activity-content">
+              <h3>Законность</h3>
+              <p>Все наши исследования проводятся исключительно в рамках действующего законодательства. Мы не используем методы, требующие специальных полномочий или нарушающие права граждан.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">02</span>
+            <div class="activity-content">
+              <h3>Этичность</h3>
+              <p>Мы придерживаемся строгого этического кодекса, который регулирует все аспекты нашей деятельности — от сбора информации до публикации результатов.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">03</span>
+            <div class="activity-content">
+              <h3>Конфиденциальность</h3>
+              <p>Защита источников и персональных данных является нашим приоритетом. Мы не раскрываем информацию о заявителях без их явного согласия.</p>
+            </div>
+          </div>
+          <div class="activity-item">
+            <span class="activity-number">04</span>
+            <div class="activity-content">
+              <h3>Профессионализм</h3>
+              <p>Наша команда состоит из специалистов с многолетним опытом в области аналитики, журналистики и исследований открытых источников.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Следственный Центр</h4>
+          <p>Независимая аналитическая организация, специализирующаяся на OSINT-исследованиях</p>
+        </div>
+        <div class="footer-section">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="activities.html">Деятельность</a></li>
+            <li><a href="submit.html">Подать заявку</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Правовая информация</h4>
+          <ul>
+            <li><a href="legal.html">Кодекс поведения</a></li>
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+            <li><a href="terms.html">Условия использования</a></li>
+            <li><a href="decline.html">Отказ от рассмотрения</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="contact.html">Связаться с нами</a></li>
+            <li><a href="contact.html#cooperation">Сотрудничество</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <p><strong>Отказ от ответственности:</strong> СЦ является частной, любительской организацией и не является правоохранительным органом, государственной структурой или органом расследования. Организация не обладает полномочиями по проведению оперативно-розыскных мероприятий и действует исключительно в рамках действующего законодательства.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Следственный Центр. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
